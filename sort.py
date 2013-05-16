@@ -9,8 +9,8 @@ unknown = []
 backups = []
 
 if len(sys.argv) == 2:
-  if sys.argv[1] == "--h":
-		sys.exit("Use --sort to sort files into appropraite folders")
+	if sys.argv[1] == "--h":
+		sys.exit("Use --sort to sort files into appropriate folders")
 
 def sort(dir):
 	for x in os.listdir(dir):
